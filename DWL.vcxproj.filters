@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{72b6d293-534f-40c1-94b2-e7ed235170ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Aplicacion">
+      <UniqueIdentifier>{c4624ac1-4087-4153-a4d2-106e4fb3ea9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Objeto">
+      <UniqueIdentifier>{342a206b-0a20-4847-8c31-24d4906539ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Debug">
+      <UniqueIdentifier>{4c3c4308-cfd7-42d9-ab32-91353be0c864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ventanas">
+      <UniqueIdentifier>{df20b62e-309c-4981-90e9-a7916d1271ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ventanas\Funciones Base">
+      <UniqueIdentifier>{2758a643-e32e-467e-a003-c3b47df4f88c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ventanas\Funciones Base\Eventos">
+      <UniqueIdentifier>{cb6a031a-1b4f-40b1-9259-6e94a2faf338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ventanas\Ventana">
+      <UniqueIdentifier>{eed0bc6a-2fe2-4902-9869-1563d8027c19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ventanas\Funciones Base\Mensajes">
+      <UniqueIdentifier>{b7c70392-6295-44bf-b911-4ca32093b6da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controles">
+      <UniqueIdentifier>{ca974672-e5a4-49de-966b-a197207a23d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controles\ListView">
+      <UniqueIdentifier>{e13c8748-66d2-4ad5-bc56-49f66ed392de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controles\ImageList">
+      <UniqueIdentifier>{e819423f-cbca-4110-9c16-2bf9600c270f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controles\Base">
+      <UniqueIdentifier>{5e80438d-9560-4647-9ac2-0c3d2a9e17aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sistema">
+      <UniqueIdentifier>{3bf17206-3396-4df3-baf4-5b6633813a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sistema\Mouse">
+      <UniqueIdentifier>{c3043919-290b-45af-9ead-09e2c21287b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sistema\Unidades de Disco">
+      <UniqueIdentifier>{7e557f01-96f4-4367-b955-5412390a42f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sistema\Utilidades String">
+      <UniqueIdentifier>{0d66aa8d-05f0-4ebc-ba89-bcc29fde8e80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controles\TreeView">
+      <UniqueIdentifier>{288959a7-27e7-488f-ae42-eed17da0ef05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controles\Button">
+      <UniqueIdentifier>{f2107bb2-c384-49b3-a88a-5817aed3a675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\DirectoriosWindows">
+      <UniqueIdentifier>{3e10bfe1-c18c-4325-9e6d-1d1ffdeece5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controles\Menu">
+      <UniqueIdentifier>{5a2b8397-a541-4a3c-b811-0b1ec98aecb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controles\ProgressBar">
+      <UniqueIdentifier>{060ad87d-665f-469c-ad07-69509e13e514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ventanas\Consola">
+      <UniqueIdentifier>{5e5a68e4-cd56-4e72-a2a7-9b4e22d97ef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Estructuras">
+      <UniqueIdentifier>{90cfc82b-7a5f-44b9-93f4-976dd796e1eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\DAplicacion.h">
+      <Filter>Base\Aplicacion</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DDebug.h">
+      <Filter>Base\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DEventosBase.h">
+      <Filter>Ventanas\Funciones Base\Eventos</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DEventosPadre.h">
+      <Filter>Ventanas\Funciones Base\Eventos</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DImageList.h">
+      <Filter>Controles\ImageList</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DListView.h">
+      <Filter>Controles\ListView</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DMouse.h">
+      <Filter>Sistema\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DUnidadesDisco.h">
+      <Filter>Sistema\Unidades de Disco</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DVentana.h">
+      <Filter>Ventanas\Ventana</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DMensajesWnd.h">
+      <Filter>Ventanas\Funciones Base\Mensajes</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DObjeto.h">
+      <Filter>Base\Objeto</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\targetver.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\stdafx.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DBaseWnd.h">
+      <Filter>Ventanas\Funciones Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DButton.h">
+      <Filter>Controles\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DDirectoriosWindows.h">
+      <Filter>Base\DirectoriosWindows</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DTreeView.h">
+      <Filter>Controles\TreeView</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DMenu.h">
+      <Filter>Controles\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DProgressBar.h">
+      <Filter>Controles\ProgressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DConsola.h">
+      <Filter>Ventanas\Consola</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DControlEstandard.h">
+      <Filter>Controles\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DControl.h">
+      <Filter>Controles\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DStringUtils.h">
+      <Filter>Sistema\Utilidades String</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DRect.h">
+      <Filter>Estructuras</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Include\DAplicacion.cpp">
+      <Filter>Base\Aplicacion</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\DDebug.cpp">
+      <Filter>Base\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\DImageList.cpp">
+      <Filter>Controles\ImageList</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\DListView.cpp">
+      <Filter>Controles\ListView</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\DListView_Columna.cpp">
+      <Filter>Controles\ListView</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\DListView_DatosEdicion.cpp">
+      <Filter>Controles\ListView</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\DListView_Item.cpp">
+      <Filter>Controles\ListView</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\DMouse.cpp">
+      <Filter>Sistema\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\DUnidadesDisco.cpp">
+      <Filter>Sistema\Unidades de Disco</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\DVentana.cpp">
+      <Filter>Ventanas\Ventana</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\stdafx.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\DBaseWnd.cpp">
+      <Filter>Ventanas\Funciones Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\DTreeView.cpp">
+      <Filter>Controles\TreeView</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\DTreeView_Nodo.cpp">
+      <Filter>Controles\TreeView</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\DMenu.cpp">
+      <Filter>Controles\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\DButton.cpp">
+      <Filter>Controles\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\DProgressBar.cpp">
+      <Filter>Controles\ProgressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\DConsola.cpp">
+      <Filter>Ventanas\Consola</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\DControlEstandard.cpp">
+      <Filter>Controles\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\DControl.cpp">
+      <Filter>Controles\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\DStringUtils.cpp">
+      <Filter>Sistema\Utilidades String</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\DRect.cpp">
+      <Filter>Estructuras</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
