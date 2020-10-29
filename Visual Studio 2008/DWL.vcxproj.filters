@@ -1,0 +1,566 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos">
+      <UniqueIdentifier>{bc07319c-c2e7-407d-901f-96cdeaa86d7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ControlesEx">
+      <UniqueIdentifier>{7b96704d-6c6d-4d9a-b436-73cb79b3e9fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ControlesEx\Base">
+      <UniqueIdentifier>{31456eca-0783-4f6c-bb86-b008a910c931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ControlesEx\DWLArbolEx">
+      <UniqueIdentifier>{8c860694-cabe-4935-ac66-49ba3217a273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ControlesEx\DWLBarraEx">
+      <UniqueIdentifier>{d05b60a5-dce3-4ad3-b04a-775bf9b53d7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ControlesEx\DWLBarraScrollEx">
+      <UniqueIdentifier>{894ddce1-da1b-4d67-9cc4-70c263e4751f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ControlesEx\DWLBotonEx">
+      <UniqueIdentifier>{873e76af-016f-4cda-a0bf-c885a9649a00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ControlesEx\DWLMarcaEx">
+      <UniqueIdentifier>{386cc8ce-dd63-441a-8163-6983c6732f6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ControlesEx\DWLToolTipEx">
+      <UniqueIdentifier>{0b605e2e-79e7-4976-9b14-2e20e6150747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ControlesEx\DWLListaEx">
+      <UniqueIdentifier>{08c29b6e-27cb-48db-8967-f7539fc15d3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ControlesEx\DWLMenuEx">
+      <UniqueIdentifier>{4dec4f0e-a508-47be-9506-abc6e3360d27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ControlesEx\DWLExplorarDirectorios">
+      <UniqueIdentifier>{9813066e-ebe9-445b-802b-526ae2832a91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ControlesEx\DWLEdicionEx">
+      <UniqueIdentifier>{8d21bfe5-f8f1-4a05-9137-826989e45600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ControlesEx\DWLEdicionDesplegableEx">
+      <UniqueIdentifier>{7d4f060c-236e-4fe1-b5a4-23cc2b8e2b81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ventanas">
+      <UniqueIdentifier>{7d2efb47-06ac-402c-b91f-4619aced6131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ventanas\Base">
+      <UniqueIdentifier>{820a2efd-470c-4590-9591-f5c5e74ca078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ventanas\Dialogos comunes">
+      <UniqueIdentifier>{9f1a5777-4a5a-4d03-a2ab-931885d97150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GDI">
+      <UniqueIdentifier>{ab9ac6cb-ffae-4213-914d-c1e431eb10dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GDI\DWLBrocha">
+      <UniqueIdentifier>{e5d7e6c9-34d8-444e-8209-70fab71ac569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GDI\DWLColor">
+      <UniqueIdentifier>{a8129ab9-9360-415b-882d-08dfaf87b45a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GDI\Base">
+      <UniqueIdentifier>{935e1226-9e06-468a-bdde-e5629ae4f3ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GDI\DWLFuente">
+      <UniqueIdentifier>{d0686eaf-e09a-45fb-98d1-f53551701f1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controles">
+      <UniqueIdentifier>{b3f0aee4-bdbe-4f8b-8783-7d064950712b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controles\Base">
+      <UniqueIdentifier>{e46f5baf-9b6b-4cd1-99d0-50f3ed15f854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SO">
+      <UniqueIdentifier>{2ed1fe5a-9d5a-4ca0-b9f2-faff9da49dbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{877f7e5b-37ba-40c9-a5aa-24287767e366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Estilos">
+      <UniqueIdentifier>{f4e559cf-3df6-4435-b4f9-2caee9c831aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compiladores">
+      <UniqueIdentifier>{e21b1740-a054-43f3-94d2-ef653a61755d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\DWLArchivoBinario.h">
+      <Filter>Archivos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLArchivoLog.h">
+      <Filter>Archivos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLArchivosWindows.h">
+      <Filter>Archivos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLBusquedaRecursiva.h">
+      <Filter>Archivos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLControlEx.h">
+      <Filter>ControlesEx\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLArbolEx.h">
+      <Filter>ControlesEx\DWLArbolEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLArbolEx\DWLArbolEx_Colores.h">
+      <Filter>ControlesEx\DWLArbolEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLArbolEx\DWLArbolEx_ColoresNodo.h">
+      <Filter>ControlesEx\DWLArbolEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLArbolEx\DWLArbolEx_Estilos.h">
+      <Filter>ControlesEx\DWLArbolEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLArbolEx\DWLArbolEx_Nodo.h">
+      <Filter>ControlesEx\DWLArbolEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLArbolEx\DWLArbolEx_Nucleo.h">
+      <Filter>ControlesEx\DWLArbolEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLArbolEx\DWLArbolEx_ParametrosClick.h">
+      <Filter>ControlesEx\DWLArbolEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLArbolEx\DWLArbolEx_TerminarLabelEdit.h">
+      <Filter>ControlesEx\DWLArbolEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLBarraEx.h">
+      <Filter>ControlesEx\DWLBarraEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLBarraEx\DWLBarraEx_Colores.h">
+      <Filter>ControlesEx\DWLBarraEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLBarraEx\DWLBarraEx_Estilos.h">
+      <Filter>ControlesEx\DWLBarraEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLBarraEx\DWLBarraEx_Nucleo.h">
+      <Filter>ControlesEx\DWLBarraEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLBarraScrollEx.h">
+      <Filter>ControlesEx\DWLBarraScrollEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLBarraScrollEx\DWLBarraScrollEx_Boton.h">
+      <Filter>ControlesEx\DWLBarraScrollEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLBarraScrollEx\DWLBarraScrollEx_Colores.h">
+      <Filter>ControlesEx\DWLBarraScrollEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLBarraScrollEx\DWLBarraScrollEx_ParametrosClick.h">
+      <Filter>ControlesEx\DWLBarraScrollEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLBotonEx.h">
+      <Filter>ControlesEx\DWLBotonEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLBotonEx\DWLBotonEx_Colores.h">
+      <Filter>ControlesEx\DWLBotonEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLBotonEx\DWLBotonEx_Estilos.h">
+      <Filter>ControlesEx\DWLBotonEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLBotonEx\DWLBotonEx_Nucleo.h">
+      <Filter>ControlesEx\DWLBotonEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLBotonEx\DWLBotonEx_ParametrosClick.h">
+      <Filter>ControlesEx\DWLBotonEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLMarcaEx.h">
+      <Filter>ControlesEx\DWLMarcaEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLMarcaEx\DWLMarcaEx_Colores.h">
+      <Filter>ControlesEx\DWLMarcaEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLMarcaEx\DWLMarcaEx_Nucleo.h">
+      <Filter>ControlesEx\DWLMarcaEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLToolTipEx.h">
+      <Filter>ControlesEx\DWLToolTipEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLToolTipEx\DWLToolTipEx_Colores.h">
+      <Filter>ControlesEx\DWLToolTipEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLToolTipEx\DWLToolTipEx_Objeto.h">
+      <Filter>ControlesEx\DWLToolTipEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLToolTipEx\DWLToolTipEx_ObjetoIconoTexto.h">
+      <Filter>ControlesEx\DWLToolTipEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLToolTipEx\DWLToolTipEx_ObjetoTextoCaracterIcono.h">
+      <Filter>ControlesEx\DWLToolTipEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLToolTipEx\DWLToolTipEx_ObjetoTextoCaracterTexto.h">
+      <Filter>ControlesEx\DWLToolTipEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLListaEx.h">
+      <Filter>ControlesEx\DWLListaEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLListaEx\DWLListaEx_Colores.h">
+      <Filter>ControlesEx\DWLListaEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLListaEx\DWLListaEx_ColoresColumna.h">
+      <Filter>ControlesEx\DWLListaEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLListaEx\DWLListaEx_ColoresItem.h">
+      <Filter>ControlesEx\DWLListaEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLListaEx\DWLListaEx_Columna.h">
+      <Filter>ControlesEx\DWLListaEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLListaEx\DWLListaEx_DatosSubItem.h">
+      <Filter>ControlesEx\DWLListaEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLListaEx\DWLListaEx_Item.h">
+      <Filter>ControlesEx\DWLListaEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLListaEx\DWLListaEx_Nucleo.h">
+      <Filter>ControlesEx\DWLListaEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLListaEx\DWLListaEx_ParametrosClick.h">
+      <Filter>ControlesEx\DWLListaEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLListaEx\DWLListaEx_TerminarLabelEdit.h">
+      <Filter>ControlesEx\DWLListaEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLMenuEx.h">
+      <Filter>ControlesEx\DWLMenuEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLMenuEx\DWLMenuEx_Colores.h">
+      <Filter>ControlesEx\DWLMenuEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLExplorarDirectorios.h">
+      <Filter>ControlesEx\DWLExplorarDirectorios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLEdicionEx.h">
+      <Filter>ControlesEx\DWLEdicionEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLEdicionEx\DWLEdicionEx_Colores.h">
+      <Filter>ControlesEx\DWLEdicionEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLEdicionEx\DWLEdicionEx_Estilos.h">
+      <Filter>ControlesEx\DWLEdicionEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLEdicionEx\DWLEdicionEx_Nucleo.h">
+      <Filter>ControlesEx\DWLEdicionEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLEdicionEx\DWLEdicionEx_Objeto.h">
+      <Filter>ControlesEx\DWLEdicionEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLEdicionDesplegableEx.h">
+      <Filter>ControlesEx\DWLEdicionDesplegableEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLDialogo.h">
+      <Filter>Ventanas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLVentana.h">
+      <Filter>Ventanas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLVentanaErrorGrave.h">
+      <Filter>Ventanas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLVentanaMDI.h">
+      <Filter>Ventanas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLVentanaMDIChild.h">
+      <Filter>Ventanas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLBaseWnd.h">
+      <Filter>Ventanas\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLEventosBase.h">
+      <Filter>Ventanas\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLEventosPadre.h">
+      <Filter>Ventanas\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLDialogoAbrir.h">
+      <Filter>Ventanas\Dialogos comunes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLDialogoColores.h">
+      <Filter>Ventanas\Dialogos comunes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLDialogoDirectorios.h">
+      <Filter>Ventanas\Dialogos comunes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLDialogoFuentes.h">
+      <Filter>Ventanas\Dialogos comunes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLDialogoGuardar.h">
+      <Filter>Ventanas\Dialogos comunes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLDialogoImpresoras.h">
+      <Filter>Ventanas\Dialogos comunes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLDialogosComunes.h">
+      <Filter>Ventanas\Dialogos comunes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLhDC.h">
+      <Filter>GDI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLIcono.h">
+      <Filter>GDI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLMapaBits.h">
+      <Filter>GDI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLPluma.h">
+      <Filter>GDI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLRecta.h">
+      <Filter>GDI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLRegion.h">
+      <Filter>GDI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLBrocha.h">
+      <Filter>GDI\DWLBrocha</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLColor.h">
+      <Filter>GDI\DWLColor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLEnumsGDI.h">
+      <Filter>GDI\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLGraficos.h">
+      <Filter>GDI\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLFuente.h">
+      <Filter>GDI\DWLFuente</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLComboBox.h">
+      <Filter>Controles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLEditBox.h">
+      <Filter>Controles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLImageList.h">
+      <Filter>Controles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLListBox.h">
+      <Filter>Controles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLListView.h">
+      <Filter>Controles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLMenu.h">
+      <Filter>Controles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLStaticText.h">
+      <Filter>Controles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLTreeView.h">
+      <Filter>Controles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLControl.h">
+      <Filter>Controles\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLDirectoriosWindows.h">
+      <Filter>SO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLListaIconos.h">
+      <Filter>SO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLMedidasSistema.h">
+      <Filter>SO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLMouse.h">
+      <Filter>SO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLPortaPapeles.h">
+      <Filter>SO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLRegistro.h">
+      <Filter>SO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLDebug.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLEstilos.h">
+      <Filter>Estilos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLEstilos\DWLEstilos_Color.h">
+      <Filter>Estilos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLEstilos\DWLEstilos_Colores.h">
+      <Filter>Estilos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWLEstilos\DWLEstilos_Fuente.h">
+      <Filter>Estilos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Compiladores\DWL_Compilador_MINGW.h">
+      <Filter>Compiladores</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Compiladores\DWL_Compilador_MSC1200.h">
+      <Filter>Compiladores</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Compiladores\DWL_Compilador_MSC1300.h">
+      <Filter>Compiladores</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Compiladores\DWL_Compilador_MSC1400.h">
+      <Filter>Compiladores</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Compiladores\DWL_Compilador_MSC1500.h">
+      <Filter>Compiladores</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Compiladores\DWL_Compilador_MSC1600.h">
+      <Filter>Compiladores</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\DWL.h" />
+    <ClInclude Include="..\Include\DWLAplicacion.h" />
+    <ClInclude Include="..\Include\DWLString.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Include\DWLControlEx.cpp">
+      <Filter>ControlesEx\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLArbolEx.cpp">
+      <Filter>ControlesEx\DWLArbolEx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLArbolEx\DWLArbolEx_Nodo.cpp">
+      <Filter>ControlesEx\DWLArbolEx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLArbolEx\DWLArbolEx_Nucleo.cpp">
+      <Filter>ControlesEx\DWLArbolEx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLBarraEx.cpp">
+      <Filter>ControlesEx\DWLBarraEx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLBarraEx\DWLBarraEx_Nucleo.cpp">
+      <Filter>ControlesEx\DWLBarraEx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLBarraScrollEx.cpp">
+      <Filter>ControlesEx\DWLBarraScrollEx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLBotonEx.cpp">
+      <Filter>ControlesEx\DWLBotonEx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLBotonEx\DWLBotonEx_Nucleo.cpp">
+      <Filter>ControlesEx\DWLBotonEx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLMarcaEx.cpp">
+      <Filter>ControlesEx\DWLMarcaEx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLMarcaEx\DWLMarcaEx_Nucleo.cpp">
+      <Filter>ControlesEx\DWLMarcaEx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLToolTipEx.cpp">
+      <Filter>ControlesEx\DWLToolTipEx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLListaEx.cpp">
+      <Filter>ControlesEx\DWLListaEx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLListaEx\DWLListaEx_Columna.cpp">
+      <Filter>ControlesEx\DWLListaEx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLListaEx\DWLListaEx_Item.cpp">
+      <Filter>ControlesEx\DWLListaEx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLListaEx\DWLListaEx_Nucleo.cpp">
+      <Filter>ControlesEx\DWLListaEx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLMenuEx.cpp">
+      <Filter>ControlesEx\DWLMenuEx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLExplorarDirectorios.cpp">
+      <Filter>ControlesEx\DWLExplorarDirectorios</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLEdicionEx.cpp">
+      <Filter>ControlesEx\DWLEdicionEx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLEdicionEx\DWLEdicionEx_Nucleo.cpp">
+      <Filter>ControlesEx\DWLEdicionEx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLEdicionDesplegableEx.cpp">
+      <Filter>ControlesEx\DWLEdicionDesplegableEx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLDialogo.cpp">
+      <Filter>Ventanas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLVentana.cpp">
+      <Filter>Ventanas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLVentanaErrorGrave.cpp">
+      <Filter>Ventanas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLVentanaMDI.cpp">
+      <Filter>Ventanas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLVentanaMDIChild.cpp">
+      <Filter>Ventanas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLBaseWnd.cpp">
+      <Filter>Ventanas\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLDialogoAbrir.cpp">
+      <Filter>Ventanas\Dialogos comunes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLDialogoColores.cpp">
+      <Filter>Ventanas\Dialogos comunes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLDialogoDirectorios.cpp">
+      <Filter>Ventanas\Dialogos comunes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLDialogoFuentes.cpp">
+      <Filter>Ventanas\Dialogos comunes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLDialogoGuardar.cpp">
+      <Filter>Ventanas\Dialogos comunes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLDialogoImpresoras.cpp">
+      <Filter>Ventanas\Dialogos comunes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLhDC.cpp">
+      <Filter>GDI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLIcono.cpp">
+      <Filter>GDI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLMapaBits.cpp">
+      <Filter>GDI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLPluma.cpp">
+      <Filter>GDI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLRecta.cpp">
+      <Filter>GDI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLRegion.cpp">
+      <Filter>GDI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLBrocha.cpp">
+      <Filter>GDI\DWLBrocha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLFuente.cpp">
+      <Filter>GDI\DWLFuente</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLListView.cpp">
+      <Filter>Controles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLTreeView.cpp">
+      <Filter>Controles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLControl.cpp">
+      <Filter>Controles\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLDirectoriosWindows.cpp">
+      <Filter>SO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLListaIconos.cpp">
+      <Filter>SO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLMedidasSistema.cpp">
+      <Filter>SO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLDebug.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLEstilos.cpp">
+      <Filter>Estilos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLEstilos\DWLEstilos_Fuente.cpp">
+      <Filter>Estilos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\DWLAplicacion.cpp" />
+    <ClCompile Include="..\Include\DWLString.cpp" />
+  </ItemGroup>
+</Project>

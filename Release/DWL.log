@@ -1,0 +1,72 @@
+﻿Compilación iniciada a las 29/05/2014 0:08:46.
+     1>Proyecto "C:\devildrey33\C++\BubaTronik 0.61\DWL\Visual Studio 2010\DWL.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\Release\\" /Fd"..\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Include\DWLAplicacion.cpp ..\Include\DWLDialogo.cpp ..\Include\DWLTreeView.cpp ..\Include\DWLVentana.cpp ..\Include\DWLVentanaErrorGrave.cpp ..\Include\DWLVentanaMDIChild.cpp
+         DWLAplicacion.cpp
+         DWLDialogo.cpp
+         DWLTreeView.cpp
+         DWLVentana.cpp
+         DWLVentanaErrorGrave.cpp
+         DWLVentanaMDIChild.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\Release\DWL.lib" /NOLOGO /LTCG ..\Release\DWLBarraTareas.obj
+         ..\Release\DWLDialogoAbrir.obj
+         ..\Release\DWLDialogoColores.obj
+         ..\Release\DWLDialogoDirectorios.obj
+         ..\Release\DWLDialogoFuentes.obj
+         ..\Release\DWLDialogoGuardar.obj
+         ..\Release\DWLDialogoImpresoras.obj
+         ..\Release\DWLEdicionDesplegableEx.obj
+         ..\Release\DWLControlEx.obj
+         ..\Release\DWLArbolEx.obj
+         ..\Release\DWLArbolEx_Nodo.obj
+         ..\Release\DWLArbolEx_Nucleo.obj
+         ..\Release\DWLBarraEx.obj
+         ..\Release\DWLBarraEx_Nucleo.obj
+         ..\Release\DWLBarraScrollEx.obj
+         ..\Release\DWLBotonEx.obj
+         ..\Release\DWLBotonEx_Nucleo.obj
+         ..\Release\DWLEdicionEx.obj
+         ..\Release\DWLEdicionEx_Nucleo.obj
+         ..\Release\DWLMarcaEx.obj
+         ..\Release\DWLMarcaEx_Nucleo.obj
+         ..\Release\DWLString_char.obj
+         ..\Release\DWLString_wchar_t.obj
+         ..\Release\DWLToolTipEx.obj
+         ..\Release\DWLListaEx.obj
+         ..\Release\DWLListaEx_Columna.obj
+         ..\Release\DWLListaEx_Item.obj
+         ..\Release\DWLListaEx_Nucleo.obj
+         ..\Release\DWLMenuEx.obj
+         ..\Release\DWLExplorarDirectorios.obj
+         ..\Release\DWLDialogo.obj
+         ..\Release\DWLVentana.obj
+         ..\Release\DWLVentanaErrorGrave.obj
+         ..\Release\DWLVentanaMDI.obj
+         ..\Release\DWLVentanaMDIChild.obj
+         ..\Release\DWLBaseWnd.obj
+         ..\Release\DWLhDC.obj
+         ..\Release\DWLIcono.obj
+         ..\Release\DWLMapaBits.obj
+         ..\Release\DWLPluma.obj
+         ..\Release\DWLRecta.obj
+         ..\Release\DWLRegion.obj
+         ..\Release\DWLBrocha.obj
+         ..\Release\DWLFuente.obj
+         ..\Release\DWLListView.obj
+         ..\Release\DWLTreeView.obj
+         ..\Release\DWLControl.obj
+         ..\Release\DWLDirectoriosWindows.obj
+         ..\Release\DWLListaIconos.obj
+         ..\Release\DWLMedidasSistema.obj
+         ..\Release\DWLDebug.obj
+         ..\Release\DWLEstilos.obj
+         ..\Release\DWLEstilos_Fuente.obj
+         ..\Release\DWLAplicacion.obj
+         ..\Release\DWLString.obj
+         DWL.vcxproj -> C:\devildrey33\C++\BubaTronik 0.61\DWL\Visual Studio 2010\..\Release\DWL.lib
+     1>Compilación del proyecto terminada "C:\devildrey33\C++\BubaTronik 0.61\DWL\Visual Studio 2010\DWL.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:30.11

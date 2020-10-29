@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BotonEx", "DWLBotonEx.vcproj", "{D16C4A21-227E-4F92-9F64-02333C849436}"
+	ProjectSection(ProjectDependencies) = postProject
+		{32DCE429-DF9B-4ACC-875A-7F85F2BB30AF} = {32DCE429-DF9B-4ACC-875A-7F85F2BB30AF}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DWL", "..\..\..\DWL.vcproj", "{32DCE429-DF9B-4ACC-875A-7F85F2BB30AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D16C4A21-227E-4F92-9F64-02333C849436}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D16C4A21-227E-4F92-9F64-02333C849436}.Debug|Win32.Build.0 = Debug|Win32
+		{D16C4A21-227E-4F92-9F64-02333C849436}.Release|Win32.ActiveCfg = Release|Win32
+		{D16C4A21-227E-4F92-9F64-02333C849436}.Release|Win32.Build.0 = Release|Win32
+		{32DCE429-DF9B-4ACC-875A-7F85F2BB30AF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{32DCE429-DF9B-4ACC-875A-7F85F2BB30AF}.Debug|Win32.Build.0 = Debug|Win32
+		{32DCE429-DF9B-4ACC-875A-7F85F2BB30AF}.Release|Win32.ActiveCfg = Release|Win32
+		{32DCE429-DF9B-4ACC-875A-7F85F2BB30AF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

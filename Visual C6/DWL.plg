@@ -1,0 +1,164 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DWL - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\DEVILD~1\CONFIG~1\Temp\RSP3.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/DWL.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\Projectes C++\DWL\Include\DWLEstilos.cpp"
+"Z:\Projectes C++\DWL\Include\DWLEstilos\DWLEstilos_Fuente.cpp"
+"Z:\Projectes C++\DWL\Include\DWLDirectoriosWindows.cpp"
+"Z:\Projectes C++\DWL\Include\DWLListaIconos.cpp"
+"Z:\Projectes C++\DWL\Include\DWLMedidasSistema.cpp"
+"Z:\Projectes C++\DWL\Include\DWLBaseWnd.cpp"
+"Z:\Projectes C++\DWL\Include\DWLDialogoAbrir.cpp"
+"Z:\Projectes C++\DWL\Include\DWLDialogoColores.cpp"
+"Z:\Projectes C++\DWL\Include\DWLDialogoDirectorios.cpp"
+"Z:\Projectes C++\DWL\Include\DWLDialogoFuentes.cpp"
+"Z:\Projectes C++\DWL\Include\DWLDialogoGuardar.cpp"
+"Z:\Projectes C++\DWL\Include\DWLDialogoImpresoras.cpp"
+"Z:\Projectes C++\DWL\Include\DWLDialogo.cpp"
+"Z:\Projectes C++\DWL\Include\DWLVentana.cpp"
+"Z:\Projectes C++\DWL\Include\DWLVentanaErrorGrave.cpp"
+"Z:\Projectes C++\DWL\Include\DWLVentanaMDI.cpp"
+"Z:\Projectes C++\DWL\Include\DWLVentanaMDIChild.cpp"
+"Z:\Projectes C++\DWL\Include\DWLControl.cpp"
+"Z:\Projectes C++\DWL\Include\DWLListView.cpp"
+"Z:\Projectes C++\DWL\Include\DWLTreeView.cpp"
+"Z:\Projectes C++\DWL\Include\DWLArbolEx.cpp"
+"Z:\Projectes C++\DWL\Include\DWLArbolEx\DWLArbolEx_Nodo.cpp"
+"Z:\Projectes C++\DWL\Include\DWLArbolEx\DWLArbolEx_Nucleo.cpp"
+"Z:\Projectes C++\DWL\Include\DWLBarraEx.cpp"
+"Z:\Projectes C++\DWL\Include\DWLBarraEx\DWLBarraEx_Nucleo.cpp"
+"Z:\Projectes C++\DWL\Include\DWLBarraScrollEx.cpp"
+"Z:\Projectes C++\DWL\Include\DWLBotonEx.cpp"
+"Z:\Projectes C++\DWL\Include\DWLBotonEx\DWLBotonEx_Nucleo.cpp"
+"Z:\Projectes C++\DWL\Include\DWLExplorarDirectorios.cpp"
+"Z:\Projectes C++\DWL\Include\DWLListaEx.cpp"
+"Z:\Projectes C++\DWL\Include\DWLListaEx\DWLListaEx_Columna.cpp"
+"Z:\Projectes C++\DWL\Include\DWLListaEx\DWLListaEx_Item.cpp"
+"Z:\Projectes C++\DWL\Include\DWLListaEx\DWLListaEx_Nucleo.cpp"
+"Z:\Projectes C++\DWL\Include\DWLMarcaEx.cpp"
+"Z:\Projectes C++\DWL\Include\DWLMarcaEx\DWLMarcaEx_Nucleo.cpp"
+"Z:\Projectes C++\DWL\Include\DWLMenuEx.cpp"
+"Z:\Projectes C++\DWL\Include\DWLToolTipEx.cpp"
+"Z:\Projectes C++\DWL\Include\DWLControlEx.cpp"
+"Z:\Projectes C++\DWL\Include\DWLEdicionEx.cpp"
+"Z:\Projectes C++\DWL\Include\DWLEdicionEx\DWLEdicionEx_Nucleo.cpp"
+"Z:\Projectes C++\DWL\Include\DWLEdicionDesplegableEx.cpp"
+"Z:\Projectes C++\DWL\Include\DWLBrocha.cpp"
+"Z:\Projectes C++\DWL\Include\DWLFuente.cpp"
+"Z:\Projectes C++\DWL\Include\DWLhDC.cpp"
+"Z:\Projectes C++\DWL\Include\DWLIcono.cpp"
+"Z:\Projectes C++\DWL\Include\DWLMapaBits.cpp"
+"Z:\Projectes C++\DWL\Include\DWLPluma.cpp"
+"Z:\Projectes C++\DWL\Include\DWLRecta.cpp"
+"Z:\Projectes C++\DWL\Include\DWLRegion.cpp"
+"Z:\Projectes C++\DWL\Include\DWLDebug.cpp"
+"Z:\Projectes C++\DWL\Include\DWLAplicacion.cpp"
+"Z:\Projectes C++\DWL\Include\DWLString.cpp"
+"Z:\Projectes C++\DWL\Include\DWLString\DWLString_char.cpp"
+"Z:\Projectes C++\DWL\Include\DWLString\DWLString_wchar_t.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\DEVILD~1\CONFIG~1\Temp\RSP3.tmp" 
+Creating temporary file "C:\DOCUME~1\DEVILD~1\CONFIG~1\Temp\RSP4.tmp" with contents
+[
+/nologo /out:"Release\DWL.lib" 
+".\Release\DWLEstilos.obj"
+".\Release\DWLEstilos_Fuente.obj"
+".\Release\DWLDirectoriosWindows.obj"
+".\Release\DWLListaIconos.obj"
+".\Release\DWLMedidasSistema.obj"
+".\Release\DWLBaseWnd.obj"
+".\Release\DWLDialogoAbrir.obj"
+".\Release\DWLDialogoColores.obj"
+".\Release\DWLDialogoDirectorios.obj"
+".\Release\DWLDialogoFuentes.obj"
+".\Release\DWLDialogoGuardar.obj"
+".\Release\DWLDialogoImpresoras.obj"
+".\Release\DWLDialogo.obj"
+".\Release\DWLVentana.obj"
+".\Release\DWLVentanaErrorGrave.obj"
+".\Release\DWLVentanaMDI.obj"
+".\Release\DWLVentanaMDIChild.obj"
+".\Release\DWLControl.obj"
+".\Release\DWLListView.obj"
+".\Release\DWLTreeView.obj"
+".\Release\DWLArbolEx.obj"
+".\Release\DWLArbolEx_Nodo.obj"
+".\Release\DWLArbolEx_Nucleo.obj"
+".\Release\DWLBarraEx.obj"
+".\Release\DWLBarraEx_Nucleo.obj"
+".\Release\DWLBarraScrollEx.obj"
+".\Release\DWLBotonEx.obj"
+".\Release\DWLBotonEx_Nucleo.obj"
+".\Release\DWLExplorarDirectorios.obj"
+".\Release\DWLListaEx.obj"
+".\Release\DWLListaEx_Columna.obj"
+".\Release\DWLListaEx_Item.obj"
+".\Release\DWLListaEx_Nucleo.obj"
+".\Release\DWLMarcaEx.obj"
+".\Release\DWLMarcaEx_Nucleo.obj"
+".\Release\DWLMenuEx.obj"
+".\Release\DWLToolTipEx.obj"
+".\Release\DWLControlEx.obj"
+".\Release\DWLEdicionEx.obj"
+".\Release\DWLEdicionEx_Nucleo.obj"
+".\Release\DWLEdicionDesplegableEx.obj"
+".\Release\DWLBrocha.obj"
+".\Release\DWLFuente.obj"
+".\Release\DWLhDC.obj"
+".\Release\DWLIcono.obj"
+".\Release\DWLMapaBits.obj"
+".\Release\DWLPluma.obj"
+".\Release\DWLRecta.obj"
+".\Release\DWLRegion.obj"
+".\Release\DWLDebug.obj"
+".\Release\DWLAplicacion.obj"
+".\Release\DWLString.obj"
+".\Release\DWLString_char.obj"
+".\Release\DWLString_wchar_t.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\DEVILD~1\CONFIG~1\Temp\RSP4.tmp"
+<h3>Output Window</h3>
+Compiling...
+DWLEstilos.cpp
+DWLEstilos_Fuente.cpp
+DWLDirectoriosWindows.cpp
+DWLListaIconos.cpp
+DWLMedidasSistema.cpp
+DWLBaseWnd.cpp
+DWLDialogoAbrir.cpp
+DWLDialogoColores.cpp
+DWLDialogoDirectorios.cpp
+DWLDialogoFuentes.cpp
+DWLDialogoGuardar.cpp
+DWLDialogoImpresoras.cpp
+DWLDialogo.cpp
+Z:\Projectes C++\DWL\Include\DWLBarraTareas.h(7) : fatal error C1083: Cannot open include file: 'Shobjidl.h': No such file or directory
+DWLVentana.cpp
+Z:\Projectes C++\DWL\Include\DWLBarraTareas.h(7) : fatal error C1083: Cannot open include file: 'Shobjidl.h': No such file or directory
+DWLVentanaErrorGrave.cpp
+Z:\Projectes C++\DWL\Include\DWLBarraTareas.h(7) : fatal error C1083: Cannot open include file: 'Shobjidl.h': No such file or directory
+DWLVentanaMDI.cpp
+DWLVentanaMDIChild.cpp
+Z:\Projectes C++\DWL\Include\DWLBarraTareas.h(7) : fatal error C1083: Cannot open include file: 'Shobjidl.h': No such file or directory
+DWLControl.cpp
+DWLListView.cpp
+DWLTreeView.cpp
+DWLArbolEx.cpp
+DWLArbolEx_Nodo.cpp
+DWLArbolEx_Nucleo.cpp
+DWLBarraEx.cpp
+DWLBarraEx_Nucleo.cpp
+DWLBarraScrollEx.cpp
+DWLBotonEx.cpp
+cl.exe terminated at user request.
+
+</pre>
+</body>
+</html>

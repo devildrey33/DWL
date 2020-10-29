@@ -1,0 +1,221 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DWL - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\DEVILD~1\CONFIG~1\Temp\RSP15.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /FR"Debug/" /Fp"Debug/DWL.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLDirectoriosWindows.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLListaIconos.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLMedidasSistema.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLSO.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLBaseDialogo.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLBaseVentana.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLBaseVentanaMDI.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLBaseVentanaMDIChild.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLBaseWnd.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLDialogo.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLVentana.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLVentanaMDI.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLVentanaMDIChild.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLBaseControlWindows.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLListView.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLTreeView.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLBaseControl.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLArbolEx.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLArbolEx\DWLArbolEx_Nodo.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLArbolEx\DWLArbolEx_Nucleo.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLBarraEx.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLBarraEx\DWLBarraEx_Nucleo.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLBarraScrollEx.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLBotonEx.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLBotonEx\DWLBotonEx_Nucleo.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLExplorarDirectorios.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLListaEx.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLListaEx\DWLListaEx_Columna.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLListaEx\DWLListaEx_Item.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLListaEx\DWLListaEx_Nucleo.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLMarcaEx.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLMarcaEx\DWLMarcaEx_Nucleo.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLMenuEx.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLToolTipEx.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLEdicionDesplegableEx.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLEdicionEx.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLBrocha.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLFuente.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLhDC.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLIcono.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLMapaBits.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLPluma.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLRecta.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLRegion.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLAplicacion.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLAspectoGraficoEx.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLDebug.cpp"
+"\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLString.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\DEVILD~1\CONFIG~1\Temp\RSP15.tmp" 
+Creating temporary file "C:\DOCUME~1\DEVILD~1\CONFIG~1\Temp\RSP16.tmp" with contents
+[
+/nologo /out:"Debug\DWL.lib" 
+".\Debug\DWLDirectoriosWindows.obj"
+".\Debug\DWLListaIconos.obj"
+".\Debug\DWLMedidasSistema.obj"
+".\Debug\DWLSO.obj"
+".\Debug\DWLBaseDialogo.obj"
+".\Debug\DWLBaseVentana.obj"
+".\Debug\DWLBaseVentanaMDI.obj"
+".\Debug\DWLBaseVentanaMDIChild.obj"
+".\Debug\DWLBaseWnd.obj"
+".\Debug\DWLDialogo.obj"
+".\Debug\DWLVentana.obj"
+".\Debug\DWLVentanaMDI.obj"
+".\Debug\DWLVentanaMDIChild.obj"
+".\Debug\DWLBaseControlWindows.obj"
+".\Debug\DWLListView.obj"
+".\Debug\DWLTreeView.obj"
+".\Debug\DWLBaseControl.obj"
+".\Debug\DWLArbolEx.obj"
+".\Debug\DWLArbolEx_Nodo.obj"
+".\Debug\DWLArbolEx_Nucleo.obj"
+".\Debug\DWLBarraEx.obj"
+".\Debug\DWLBarraEx_Nucleo.obj"
+".\Debug\DWLBarraScrollEx.obj"
+".\Debug\DWLBotonEx.obj"
+".\Debug\DWLBotonEx_Nucleo.obj"
+".\Debug\DWLExplorarDirectorios.obj"
+".\Debug\DWLListaEx.obj"
+".\Debug\DWLListaEx_Columna.obj"
+".\Debug\DWLListaEx_Item.obj"
+".\Debug\DWLListaEx_Nucleo.obj"
+".\Debug\DWLMarcaEx.obj"
+".\Debug\DWLMarcaEx_Nucleo.obj"
+".\Debug\DWLMenuEx.obj"
+".\Debug\DWLToolTipEx.obj"
+".\Debug\DWLEdicionDesplegableEx.obj"
+".\Debug\DWLEdicionEx.obj"
+".\Debug\DWLBrocha.obj"
+".\Debug\DWLFuente.obj"
+".\Debug\DWLhDC.obj"
+".\Debug\DWLIcono.obj"
+".\Debug\DWLMapaBits.obj"
+".\Debug\DWLPluma.obj"
+".\Debug\DWLRecta.obj"
+".\Debug\DWLRegion.obj"
+".\Debug\DWLAplicacion.obj"
+".\Debug\DWLAspectoGraficoEx.obj"
+".\Debug\DWLDebug.obj"
+".\Debug\DWLString.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\DEVILD~1\CONFIG~1\Temp\RSP16.tmp"
+<h3>Output Window</h3>
+Compiling...
+DWLDirectoriosWindows.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLDirectoriosWindows.cpp': No such file or directory
+DWLListaIconos.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLListaIconos.cpp': No such file or directory
+DWLMedidasSistema.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLMedidasSistema.cpp': No such file or directory
+DWLSO.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLSO.cpp': No such file or directory
+DWLBaseDialogo.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLBaseDialogo.cpp': No such file or directory
+DWLBaseVentana.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLBaseVentana.cpp': No such file or directory
+DWLBaseVentanaMDI.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLBaseVentanaMDI.cpp': No such file or directory
+DWLBaseVentanaMDIChild.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLBaseVentanaMDIChild.cpp': No such file or directory
+DWLBaseWnd.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLBaseWnd.cpp': No such file or directory
+DWLDialogo.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLDialogo.cpp': No such file or directory
+DWLVentana.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLVentana.cpp': No such file or directory
+DWLVentanaMDI.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLVentanaMDI.cpp': No such file or directory
+DWLVentanaMDIChild.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLVentanaMDIChild.cpp': No such file or directory
+DWLBaseControlWindows.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLBaseControlWindows.cpp': No such file or directory
+DWLListView.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLListView.cpp': No such file or directory
+DWLTreeView.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLTreeView.cpp': No such file or directory
+DWLBaseControl.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLBaseControl.cpp': No such file or directory
+DWLArbolEx.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLArbolEx.cpp': No such file or directory
+DWLArbolEx_Nodo.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLArbolEx\DWLArbolEx_Nodo.cpp': No such file or directory
+DWLArbolEx_Nucleo.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLArbolEx\DWLArbolEx_Nucleo.cpp': No such file or directory
+DWLBarraEx.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLBarraEx.cpp': No such file or directory
+DWLBarraEx_Nucleo.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLBarraEx\DWLBarraEx_Nucleo.cpp': No such file or directory
+DWLBarraScrollEx.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLBarraScrollEx.cpp': No such file or directory
+DWLBotonEx.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLBotonEx.cpp': No such file or directory
+DWLBotonEx_Nucleo.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLBotonEx\DWLBotonEx_Nucleo.cpp': No such file or directory
+DWLExplorarDirectorios.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLExplorarDirectorios.cpp': No such file or directory
+DWLListaEx.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLListaEx.cpp': No such file or directory
+DWLListaEx_Columna.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLListaEx\DWLListaEx_Columna.cpp': No such file or directory
+DWLListaEx_Item.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLListaEx\DWLListaEx_Item.cpp': No such file or directory
+DWLListaEx_Nucleo.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLListaEx\DWLListaEx_Nucleo.cpp': No such file or directory
+DWLMarcaEx.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLMarcaEx.cpp': No such file or directory
+DWLMarcaEx_Nucleo.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLMarcaEx\DWLMarcaEx_Nucleo.cpp': No such file or directory
+DWLMenuEx.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLMenuEx.cpp': No such file or directory
+DWLToolTipEx.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLToolTipEx.cpp': No such file or directory
+DWLEdicionDesplegableEx.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLEdicionDesplegableEx.cpp': No such file or directory
+DWLEdicionEx.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLEdicionEx.cpp': No such file or directory
+DWLBrocha.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLBrocha.cpp': No such file or directory
+DWLFuente.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLFuente.cpp': No such file or directory
+DWLhDC.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLhDC.cpp': No such file or directory
+DWLIcono.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLIcono.cpp': No such file or directory
+DWLMapaBits.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLMapaBits.cpp': No such file or directory
+DWLPluma.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLPluma.cpp': No such file or directory
+DWLRecta.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLRecta.cpp': No such file or directory
+DWLRegion.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLRegion.cpp': No such file or directory
+DWLAplicacion.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLAplicacion.cpp': No such file or directory
+DWLAspectoGraficoEx.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLAspectoGraficoEx.cpp': No such file or directory
+DWLDebug.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLDebug.cpp': No such file or directory
+DWLString.cpp
+fatal error C1083: Cannot open source file: '\\St0rm\Programacio\Projectes C++\DWL\Visual C6\Include\DWLString.cpp': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+ArbolEx.exe - 48 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

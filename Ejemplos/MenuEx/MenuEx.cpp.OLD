@@ -1,0 +1,18 @@
+﻿// MenuEx.cpp: define el punto de entrada de la aplicación.
+//
+
+#include "stdafx.h"
+#include "MenuEx.h"
+
+#include "VentanaMain.h"
+
+
+int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow) {
+	VentanaMain V;
+	MSG			Message;
+	while(TRUE == GetMessage(&Message, 0, 0, 0)) {    // Minetras la Ventana retorne Mensajes
+		TranslateMessage(&Message);                   // Traduzco el Mensaje
+		DispatchMessage(&Message);                    // Paso el Mensaje a la Ventana
+	}  	
+	return static_cast<int>(Message.wParam);
+}

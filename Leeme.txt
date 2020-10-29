@@ -1,0 +1,30 @@
+Descripcion de los archivos y directorios :
+\Ejemplos\ArbolEx\		Carpeta con un ejemplo de la clase DWLArbolEx.
+\Ejemplos\BarraEx\		Carpeta con un ejemplo de la clase DWLBarraEx
+\Ejemplos\BotonEx\		Carpeta con un ejemplo de la clase DWLBotonEx
+\Ejemplos\Contenedor Pruebas\	Carpeta con contiene la aplicacion Contenedor Pruebas.
+\Ejemplos\EdicionEx\		Carpeta con un ejemplo de la clase DWLEdicionEx.
+\Ejemplos\LimpiadorProyectos\	Carpeta con un ejemplo de la clase DWLBusquedaRecursiva.
+\Ejemplos\ListaEx\		Carpeta con un ejemplo de la clase DWLListaEx.
+\Ejemplos\MarcaEx\		Carpeta con un ejemplo de la clase DWLMarcaEx.
+\Ejemplos\MenuEx\		Carpeta con un ejemplo de la clase DWLMenuEx.
+\Include\ 			Carpeta con todo el codigo de la DWL
+\Release\			Carpeta donde se guardaran los objetos y los ejecutables
+\Iconos\			Algunos iconos para los ejemplos
+\DWL.dev			Proyecto para DevCpp
+\DWL.dsw			Espacio de trabajo para VisualC++ 6
+\DWL.dsp			Proyecto DWL para VisualC++ 6
+\DWL.sln			Solucion DWL para VisualC++ 9
+\DWL.vcproj			Proyecto DWL para VisualC++ 9
+\DWL Ejemplos.sln		Solucion que contiene todos los ejemplos para VisualC++ 9
+\DWL Ejemplos.dsw		Espacio de trabajo contiene todos los ejemplos para VisualC++ 6
+
+Todos los ejemplos tienen 3 carpetas que contienen los proyectos del ejemplo para distintos compiladores.
+Encontraras las siguientes carpetas : VisualC9, VisualC6 y DevCpp.
+
+NOTA DevCpp : para compilar este codigo necesitareis aseguraros en cada proyecto de que teneis bien especificados los paths para las
+              siguientes librerias : libcommctl32.a, libole32.a, libmpr.a, libshell32.a, y libmsimg32.a. 
+	      Estas librerias las encontraras dentro del directorio lib del DevCpp.
+
+NOTA VC6    : En principio la libreria funciona perfectamente en este compilador, lo unico que solo se puede compilar con capacidades para 
+              win95/98.

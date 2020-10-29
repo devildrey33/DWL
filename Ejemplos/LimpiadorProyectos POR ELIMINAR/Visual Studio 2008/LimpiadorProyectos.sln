@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LimpiadorProyectos", "LimpiadorProyectos.vcproj", "{68FDFAFC-DE9E-42FE-B01E-3A654696A30F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{32DCE429-DF9B-4ACC-875A-7F85F2BB30AF} = {32DCE429-DF9B-4ACC-875A-7F85F2BB30AF}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DWL", "..\..\..\DWL.vcproj", "{32DCE429-DF9B-4ACC-875A-7F85F2BB30AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68FDFAFC-DE9E-42FE-B01E-3A654696A30F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{68FDFAFC-DE9E-42FE-B01E-3A654696A30F}.Debug|Win32.Build.0 = Debug|Win32
+		{68FDFAFC-DE9E-42FE-B01E-3A654696A30F}.Release|Win32.ActiveCfg = Release|Win32
+		{68FDFAFC-DE9E-42FE-B01E-3A654696A30F}.Release|Win32.Build.0 = Release|Win32
+		{32DCE429-DF9B-4ACC-875A-7F85F2BB30AF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{32DCE429-DF9B-4ACC-875A-7F85F2BB30AF}.Debug|Win32.Build.0 = Debug|Win32
+		{32DCE429-DF9B-4ACC-875A-7F85F2BB30AF}.Release|Win32.ActiveCfg = Release|Win32
+		{32DCE429-DF9B-4ACC-875A-7F85F2BB30AF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

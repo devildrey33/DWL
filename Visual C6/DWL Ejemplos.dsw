@@ -1,0 +1,161 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "ArbolEx"=".\Ejemplos\ArbolEx\VisualC6\ArbolEx.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name DWL
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "BarraEx"=".\Ejemplos\BarraEx\VisualC6\BarraEx.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name DWL
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "BotonEx"=".\Ejemplos\BotonEx\VisualC6\BotonEx.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name DWL
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ContenedorPruebas"=".\Ejemplos\Contenedor Pruebas\VisualC6\ContenedorPruebas.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name DWL
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "DWL"=".\DWL\DWL.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "EdicionEx"=".\Ejemplos\EdicionEx\VisualC6\EdicionEx.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name DWL
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "LimpiarProyectos"=".\Ejemplos\LimpiadorProyectos\VisualC6\LimpiarProyectos.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ListaEx"=".\Ejemplos\ListaEx\VisualC6\ListaEx.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name DWL
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "MarcaEx"=".\Ejemplos\MarcaEx\VisualC6\MarcaEx.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name DWL
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "MenuEx"=".\Ejemplos\MenuEx\VisualC6\MenuEx.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name DWL
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="69">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>../ArbolEx.cpp</itemPath>
+    <itemPath>../MiArbolEx.cpp</itemPath>
+    <itemPath>../MiArbolEx.h</itemPath>
+    <itemPath>../VentanaMain.cpp</itemPath>
+    <itemPath>../VentanaMain.h</itemPath>
+    <itemPath>../resource.h</itemPath>
+    <itemPath>../stdafx.cpp</itemPath>
+    <itemPath>../stdafx.h</itemPath>
+    <itemPath>../targetver.h</itemPath>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug_Win32" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>MinGW|MinGW</compilerSet>
+        <platform>3</platform>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>../../../Include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>_UNICODE</Elem>
+            <Elem>UNICODE</Elem>
+            <Elem>DEBUG</Elem>
+            <Elem>_DEBUG</Elem>
+            <Elem>_WINDOWS</Elem>
+            <Elem>WIN32</Elem>
+          </preprocessorList>
+        </ccTool>
+        <linkerTool>
+          <output>../../../Bin/ArbolEx.exe</output>
+          <linkerAddLib>
+            <pElem>../../../Lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../../../Net Beans"
+                            CT="3"
+                            CN="Debug"
+                            AC="true"
+                            BL="false"
+                            WD="../../../Net Beans"
+                            BC="${MAKE}  -f Makefile CONF=Debug"
+                            CC="${MAKE}  -f Makefile CONF=Debug clean"
+                            OP="../lib/DWL_Debug.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibFileItem>../../../../../MinGW/lib/libkernel32.a</linkerLibFileItem>
+            <linkerLibLibItem>user32</linkerLibLibItem>
+            <linkerLibLibItem>gdi32</linkerLibLibItem>
+            <linkerLibLibItem>comdlg32</linkerLibLibItem>
+            <linkerLibLibItem>shell32</linkerLibLibItem>
+            <linkerLibLibItem>ole32</linkerLibLibItem>
+            <linkerLibFileItem>../../../../../MinGW/lib/libmsimg32.a</linkerLibFileItem>
+            <linkerLibFileItem>../../../../../MinGW/lib/libmpr.a</linkerLibFileItem>
+          </linkerLibItems>
+        </linkerTool>
+        <requiredProjects>
+          <makeArtifact PL="../../../Net Beans"
+                        CT="3"
+                        CN="Debug"
+                        AC="true"
+                        BL="true"
+                        WD="../../../Net Beans"
+                        BC="${MAKE}  -f Makefile CONF=Debug"
+                        CC="${MAKE}  -f Makefile CONF=Debug clean"
+                        OP="../lib/DWL_Debug.a">
+          </makeArtifact>
+        </requiredProjects>
+      </compileType>
+    </conf>
+    <conf name="Release_Win32" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>MinGW|MinGW</compilerSet>
+        <platform>3</platform>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>../../../Include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>_UNICODE</Elem>
+            <Elem>UNICODE</Elem>
+            <Elem>_WINDOWS</Elem>
+            <Elem>WIN32</Elem>
+          </preprocessorList>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>../../../Bin/ArbolEx.exe</output>
+          <linkerAddLib>
+            <pElem>../../../Lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../../../Net Beans"
+                            CT="3"
+                            CN="Debug"
+                            AC="true"
+                            BL="false"
+                            WD="../../../Net Beans"
+                            BC="${MAKE}  -f Makefile CONF=Debug"
+                            CC="${MAKE}  -f Makefile CONF=Debug clean"
+                            OP="../lib/DWL_Debug.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibFileItem>../../../../../MinGW/lib/libkernel32.a</linkerLibFileItem>
+            <linkerLibLibItem>user32</linkerLibLibItem>
+            <linkerLibLibItem>gdi32</linkerLibLibItem>
+            <linkerLibLibItem>comdlg32</linkerLibLibItem>
+            <linkerLibLibItem>shell32</linkerLibLibItem>
+            <linkerLibLibItem>ole32</linkerLibLibItem>
+            <linkerLibFileItem>../../../../../MinGW/lib/libmsimg32.a</linkerLibFileItem>
+            <linkerLibFileItem>../../../../../MinGW/lib/libmpr.a</linkerLibFileItem>
+          </linkerLibItems>
+        </linkerTool>
+        <requiredProjects>
+          <makeArtifact PL="../../../Net Beans"
+                        CT="3"
+                        CN="Release"
+                        AC="false"
+                        BL="true"
+                        WD="../../../Net Beans"
+                        BC="${MAKE}  -f Makefile CONF=Release"
+                        CC="${MAKE}  -f Makefile CONF=Release clean"
+                        OP="../Lib/DWL.a">
+          </makeArtifact>
+        </requiredProjects>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>

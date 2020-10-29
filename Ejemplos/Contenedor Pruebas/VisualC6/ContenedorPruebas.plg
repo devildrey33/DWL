@@ -1,0 +1,243 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DWL - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "H:\DOCUME~1\DReY\CONFIG~1\Temp\RSP72.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /FR"Debug/" /Fp"Debug/DWL.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\Programacio\Projectes C++\DWL\Include\DWLListaIconos.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLMedidasSistema.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLSO.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLBaseDialogo.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLBaseVentana.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLBaseVentanaMDI.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLBaseVentanaMDIChild.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLBaseWnd.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLDialogo.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLVentana.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLVentanaMDI.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLVentanaMDIChild.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLBaseControlWindows.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLListView.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLTreeView.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLBaseControl.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLArbolEx.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLArbolEx\DWLArbolEx_Nodo.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLArbolEx\DWLArbolEx_Nucleo.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLBarraEx.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLBarraEx\DWLBarraEx_Nucleo.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLBarraScrollEx.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLBotonEx.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLBotonEx\DWLBotonEx_Nucleo.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLExplorarDirectorios.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLListaEx.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLListaEx\DWLListaEx_Columna.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLListaEx\DWLListaEx_Item.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLListaEx\DWLListaEx_Nucleo.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLMarcaEx.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLMarcaEx\DWLMarcaEx_Nucleo.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLMenuEx.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLToolTipEx.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLEdicionDesplegableEx.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLEdicionEx.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLBrocha.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLFuente.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLhDC.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLIcono.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLMapaBits.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLPluma.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLRecta.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLRegion.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLAplicacion.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLAspectoGraficoEx.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLDebug.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLString.cpp"
+"H:\Programacio\Projectes C++\DWL\Include\DWLDirectoriosWindows.cpp"
+]
+Creating command line "cl.exe @H:\DOCUME~1\DReY\CONFIG~1\Temp\RSP72.tmp" 
+Creating temporary file "H:\DOCUME~1\DReY\CONFIG~1\Temp\RSP73.tmp" with contents
+[
+/nologo /out:"Debug\DWL.lib" 
+".\Debug\DWLDirectoriosWindows.obj"
+".\Debug\DWLListaIconos.obj"
+".\Debug\DWLMedidasSistema.obj"
+".\Debug\DWLSO.obj"
+".\Debug\DWLBaseDialogo.obj"
+".\Debug\DWLBaseVentana.obj"
+".\Debug\DWLBaseVentanaMDI.obj"
+".\Debug\DWLBaseVentanaMDIChild.obj"
+".\Debug\DWLBaseWnd.obj"
+".\Debug\DWLDialogo.obj"
+".\Debug\DWLVentana.obj"
+".\Debug\DWLVentanaMDI.obj"
+".\Debug\DWLVentanaMDIChild.obj"
+".\Debug\DWLBaseControlWindows.obj"
+".\Debug\DWLListView.obj"
+".\Debug\DWLTreeView.obj"
+".\Debug\DWLBaseControl.obj"
+".\Debug\DWLArbolEx.obj"
+".\Debug\DWLArbolEx_Nodo.obj"
+".\Debug\DWLArbolEx_Nucleo.obj"
+".\Debug\DWLBarraEx.obj"
+".\Debug\DWLBarraEx_Nucleo.obj"
+".\Debug\DWLBarraScrollEx.obj"
+".\Debug\DWLBotonEx.obj"
+".\Debug\DWLBotonEx_Nucleo.obj"
+".\Debug\DWLExplorarDirectorios.obj"
+".\Debug\DWLListaEx.obj"
+".\Debug\DWLListaEx_Columna.obj"
+".\Debug\DWLListaEx_Item.obj"
+".\Debug\DWLListaEx_Nucleo.obj"
+".\Debug\DWLMarcaEx.obj"
+".\Debug\DWLMarcaEx_Nucleo.obj"
+".\Debug\DWLMenuEx.obj"
+".\Debug\DWLToolTipEx.obj"
+".\Debug\DWLEdicionDesplegableEx.obj"
+".\Debug\DWLEdicionEx.obj"
+".\Debug\DWLBrocha.obj"
+".\Debug\DWLFuente.obj"
+".\Debug\DWLhDC.obj"
+".\Debug\DWLIcono.obj"
+".\Debug\DWLMapaBits.obj"
+".\Debug\DWLPluma.obj"
+".\Debug\DWLRecta.obj"
+".\Debug\DWLRegion.obj"
+".\Debug\DWLAplicacion.obj"
+".\Debug\DWLAspectoGraficoEx.obj"
+".\Debug\DWLDebug.obj"
+".\Debug\DWLString.obj"
+]
+Creating command line "link.exe -lib @H:\DOCUME~1\DReY\CONFIG~1\Temp\RSP73.tmp"
+<h3>Output Window</h3>
+Compiling...
+DWLListaIconos.cpp
+DWLMedidasSistema.cpp
+DWLSO.cpp
+DWLBaseDialogo.cpp
+DWLBaseVentana.cpp
+DWLBaseVentanaMDI.cpp
+DWLBaseVentanaMDIChild.cpp
+DWLBaseWnd.cpp
+DWLDialogo.cpp
+DWLVentana.cpp
+DWLVentanaMDI.cpp
+DWLVentanaMDIChild.cpp
+DWLBaseControlWindows.cpp
+DWLListView.cpp
+DWLTreeView.cpp
+DWLBaseControl.cpp
+DWLArbolEx.cpp
+DWLArbolEx_Nodo.cpp
+DWLArbolEx_Nucleo.cpp
+DWLBarraEx.cpp
+DWLBarraEx_Nucleo.cpp
+DWLBarraScrollEx.cpp
+DWLBotonEx.cpp
+DWLBotonEx_Nucleo.cpp
+DWLExplorarDirectorios.cpp
+DWLListaEx.cpp
+DWLListaEx_Columna.cpp
+DWLListaEx_Item.cpp
+DWLListaEx_Nucleo.cpp
+DWLMarcaEx.cpp
+DWLMarcaEx_Nucleo.cpp
+DWLMenuEx.cpp
+DWLToolTipEx.cpp
+DWLEdicionDesplegableEx.cpp
+DWLEdicionEx.cpp
+DWLBrocha.cpp
+DWLFuente.cpp
+DWLhDC.cpp
+DWLIcono.cpp
+DWLMapaBits.cpp
+DWLPluma.cpp
+DWLRecta.cpp
+DWLRegion.cpp
+DWLAplicacion.cpp
+DWLAspectoGraficoEx.cpp
+DWLDebug.cpp
+DWLString.cpp
+DWLDirectoriosWindows.cpp
+Creating library...
+Creating temporary file "H:\DOCUME~1\DReY\CONFIG~1\Temp\RSP74.tmp" with contents
+[
+/nologo /o"Debug/DWL.bsc" 
+".\Debug\DWLDirectoriosWindows.sbr"
+".\Debug\DWLListaIconos.sbr"
+".\Debug\DWLMedidasSistema.sbr"
+".\Debug\DWLSO.sbr"
+".\Debug\DWLBaseDialogo.sbr"
+".\Debug\DWLBaseVentana.sbr"
+".\Debug\DWLBaseVentanaMDI.sbr"
+".\Debug\DWLBaseVentanaMDIChild.sbr"
+".\Debug\DWLBaseWnd.sbr"
+".\Debug\DWLDialogo.sbr"
+".\Debug\DWLVentana.sbr"
+".\Debug\DWLVentanaMDI.sbr"
+".\Debug\DWLVentanaMDIChild.sbr"
+".\Debug\DWLBaseControlWindows.sbr"
+".\Debug\DWLListView.sbr"
+".\Debug\DWLTreeView.sbr"
+".\Debug\DWLBaseControl.sbr"
+".\Debug\DWLArbolEx.sbr"
+".\Debug\DWLArbolEx_Nodo.sbr"
+".\Debug\DWLArbolEx_Nucleo.sbr"
+".\Debug\DWLBarraEx.sbr"
+".\Debug\DWLBarraEx_Nucleo.sbr"
+".\Debug\DWLBarraScrollEx.sbr"
+".\Debug\DWLBotonEx.sbr"
+".\Debug\DWLBotonEx_Nucleo.sbr"
+".\Debug\DWLExplorarDirectorios.sbr"
+".\Debug\DWLListaEx.sbr"
+".\Debug\DWLListaEx_Columna.sbr"
+".\Debug\DWLListaEx_Item.sbr"
+".\Debug\DWLListaEx_Nucleo.sbr"
+".\Debug\DWLMarcaEx.sbr"
+".\Debug\DWLMarcaEx_Nucleo.sbr"
+".\Debug\DWLMenuEx.sbr"
+".\Debug\DWLToolTipEx.sbr"
+".\Debug\DWLEdicionDesplegableEx.sbr"
+".\Debug\DWLEdicionEx.sbr"
+".\Debug\DWLBrocha.sbr"
+".\Debug\DWLFuente.sbr"
+".\Debug\DWLhDC.sbr"
+".\Debug\DWLIcono.sbr"
+".\Debug\DWLMapaBits.sbr"
+".\Debug\DWLPluma.sbr"
+".\Debug\DWLRecta.sbr"
+".\Debug\DWLRegion.sbr"
+".\Debug\DWLAplicacion.sbr"
+".\Debug\DWLAspectoGraficoEx.sbr"
+".\Debug\DWLDebug.sbr"
+".\Debug\DWLString.sbr"]
+Creating command line "bscmake.exe @H:\DOCUME~1\DReY\CONFIG~1\Temp\RSP74.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+<h3>
+--------------------Configuration: ContenedorPruebas - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "H:\DOCUME~1\DReY\CONFIG~1\Temp\RSP75.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/ContenedorPruebas.pdb" /debug /machine:I386 /out:"Debug/ContenedorPruebas.exe" /pdbtype:sept 
+".\Debug\ContenedorPruebas.obj"
+".\Debug\stdafx.obj"
+".\Debug\VentanaMain.obj"
+".\Debug\ContenedorPruebas.res"
+"\Programacio\Projectes C++\DWL\Debug\DWL.lib"
+]
+Creating command line "link.exe @H:\DOCUME~1\DReY\CONFIG~1\Temp\RSP75.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+ContenedorPruebas.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

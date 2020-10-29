@@ -1,0 +1,195 @@
+#include "StdAfx.h"
+#include "VentanaMain.h"
+#include "resource.h"
+
+#define ID_ARBOL1 3366
+
+#define ID_MAS20NODOS     1000
+#define ID_MAS20HIJOS     1001
+#define ID_BORRARNODOS    1002
+#define ID_BORDE          1003
+#define ID_SCROLLVVISIBLE 1004
+#define ID_SCROLLHVISIBLE 1005
+#define ID_MULTISELECCION 1006
+#define ID_SUBSELECCION   1007
+#define ID_AGREGARBOTON   1008
+#define ID_ELIMINARBOTON  1009
+#define ID_ICONOS         1010
+#define ID_LINEAS         1011
+#define ID_TRANSPARENCIAS 1012
+#define ID_FUENTES        1013
+#define ID_COLORES        1014
+
+
+VentanaMain::VentanaMain(void) {
+    TmpNodo = NULL;
+    IDBotonesScroll = 100;
+}
+
+VentanaMain::~VentanaMain(void) {
+}
+
+void VentanaMain::Crear(void) {
+    
+    Tahoma13.Crear(TEXT("Tahoma"), 13);
+    Courier16.Crear(TEXT("Courier New"), 16);
+    Comic21.Crear(TEXT("Comic sans"), 21);
+
+	CrearVentana(0, TEXT("Ejemplo"), WS_OVERLAPPEDWINDOW | WS_VISIBLE, TEXT("Ejemplo ArbolEx"), DWL_CENTRADO, DWL_CENTRADO, 430, 380, 0);
+    
+    Boton_Mas20Nodos.CrearBotonEx(WS_CHILD | WS_VISIBLE, _hWnd, TEXT("+ 20 nodos"), 10, 10, 65, 20, ID_MAS20NODOS);
+    Boton_Mas20Hijos.CrearBotonEx(WS_CHILD | WS_VISIBLE, _hWnd, TEXT("+ 20 hijos"), 80, 10, 65, 20, ID_MAS20HIJOS);
+    Boton_BorrarNodos.CrearBotonEx(WS_CHILD | WS_VISIBLE, _hWnd, TEXT("Borrar nodos"), 150, 10, 70, 20, ID_BORRARNODOS);
+    Marca_Borde.CrearMarcaEx(WS_CHILD | WS_VISIBLE, _hWnd, TEXT("Borde"), 225, 10, ID_BORDE, true);
+    Marca_Iconos.CrearMarcaEx(WS_CHILD | WS_VISIBLE, _hWnd, TEXT("Iconos"), 280, 10, ID_ICONOS, true);
+    Marca_Lineas.CrearMarcaEx(WS_CHILD | WS_VISIBLE, _hWnd, TEXT("Lineas"), 342, 10, ID_LINEAS, true);
+    Boton_AgregarBoton.CrearBotonEx(WS_CHILD | WS_VISIBLE, _hWnd, TEXT("Agregar boton scroll"), 10, 35, 110, 20, ID_AGREGARBOTON);
+    Boton_EliminarBoton.CrearBotonEx(WS_CHILD | WS_VISIBLE, _hWnd, TEXT("Eliminar boton scroll"), 125, 35, 110, 20, ID_ELIMINARBOTON);
+    Marca_MultiSeleccion.CrearMarcaEx(WS_CHILD | WS_VISIBLE, _hWnd, TEXT("MultiSelección"), 240, 35, ID_MULTISELECCION, true);
+    Marca_SubSeleccion.CrearMarcaEx(WS_CHILD | WS_VISIBLE, _hWnd, TEXT("Sub-Selección"), 333, 35, ID_SUBSELECCION, true);
+    Combo_ScrollV.CrearEdicionDesplegableEx(WS_CHILD | WS_VISIBLE, _hWnd, TEXT("ScrollV Automático"), 10, 60, 120, 20, 60, ID_SCROLLVVISIBLE, false);
+    Combo_ScrollV.AgregarItem(TEXT("ScrollV Automático"));
+    Combo_ScrollV.AgregarItem(TEXT("ScrollV Visible"));
+    Combo_ScrollV.AgregarItem(TEXT("ScrollV Invisible"));
+    Combo_ScrollV.FinAgregarItems();
+    Combo_ScrollH.CrearEdicionDesplegableEx(WS_CHILD | WS_VISIBLE, _hWnd, TEXT("ScrollH Automático"), 135, 60, 120, 20, 60, ID_SCROLLHVISIBLE, false);
+    Combo_ScrollH.AgregarItem(TEXT("ScrollH Automático"));
+    Combo_ScrollH.AgregarItem(TEXT("ScrollH Visible"));
+    Combo_ScrollH.AgregarItem(TEXT("ScrollH Invisible"));
+    Combo_ScrollH.FinAgregarItems();
+    Marca_Transparencias.CrearMarcaEx(WS_CHILD | WS_VISIBLE, _hWnd, TEXT("Transparencias"), 260, 60, ID_TRANSPARENCIAS, true);
+    Combo_Fuentes.CrearEdicionDesplegableEx(WS_CHILD | WS_VISIBLE, _hWnd, TEXT("Tahoma 13px"), 10, 85, 120, 20, 60, ID_FUENTES, false);
+    Combo_Fuentes.AgregarItem(TEXT("Tahoma 13px"));
+    Combo_Fuentes.AgregarItem(TEXT("Courier new 16px"));
+    Combo_Fuentes.AgregarItem(TEXT("Comic sans 21px"));
+    Combo_Fuentes.FinAgregarItems();
+    Boton_ColoresAleatorios.CrearBotonEx(WS_CHILD | WS_VISIBLE, _hWnd, TEXT("Colores aleatorios"), 135, 85, 100, 20, ID_COLORES);
+//    Boton_AgregarBotonScroll.CrearBotonEx(WS_CHILD | WS_VISIBLE, _hWnd, TEXT("Agregar boton scroll V"), 70, 10, 70, 20, ID_BORRARNODOS);
+
+    Arbol.CrearArbolEx(WS_CHILD, _hWnd, 10, 110, 395, 225, ID_ARBOL1, true);
+//	Arbol.MostrarToolTip(true);
+
+/*	DWL::ControlesEx::DWLArbolEx_Nodo *Nodo		= Arbol.AgregarNodo(NULL, NULL, 0, TEXT("Nodo1"), DWL_ARBOLEX_ORDENADO);
+	DWL::ControlesEx::DWLArbolEx_Nodo *SubNodo1	= Arbol.AgregarNodo(NULL, Nodo, 0, TEXT("SubNodo1"), DWL_ARBOLEX_ORDENADO);
+	DWL::ControlesEx::DWLArbolEx_Nodo *SubNodo2	= Arbol.AgregarNodo(NULL, Nodo, 0, TEXT("SubNodo2aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"), DWL_ARBOLEX_ORDENADO);
+	Arbol.AgregarNodo(NULL, SubNodo2, 0, TEXT("SubSubNodo1"), DWL_ARBOLEX_ORDENADO);
+	for (unsigned int i = 0; i < 40; i++) Arbol.AgregarNodo(NULL, NULL, 0, TEXT("Nodo2"), DWL_ARBOLEX_ORDENADO);
+	Arbol.BarraScrollEx_AgregarBotonV(0, 100);
+	Arbol.BarraScrollEx_AgregarBotonH(0, 100);*/
+
+	Arbol.ActualizarTodo(false);
+	Arbol.Visible(true);
+}
+
+
+LRESULT VentanaMain::Evento_Cerrar(void) {
+	PostQuitMessage(0);
+	return 0;
+}
+
+LRESULT VentanaMain::Evento_BotonEx_Mouse_Click(const UINT Boton, const int cX, const int cY, const UINT IDBotonEx, const UINT Param) {
+    DWL::DWLString TmpTxt;
+    switch (IDBotonEx) {
+        case ID_MAS20NODOS :
+            for (size_t i = 0; i < 20; i++) {
+                TmpTxt.sprintf(TEXT("Nodo %d"), i);
+                Arbol.AgregarNodo(NULL, NULL, IDI_ICON1, TmpTxt(), DWL_ARBOLEX_FIN);
+            }
+            break;
+        case ID_MAS20HIJOS :
+            for (size_t i2 = 0; i2 < 20; i2++) {
+                TmpTxt.sprintf(TEXT("Nodo con subnodos %d"), i2);
+                TmpNodo = Arbol.AgregarNodo(NULL, TmpNodo, IDI_ICON1, TmpTxt(), DWL_ARBOLEX_ORDENADO);
+            }
+            break;
+        case ID_BORRARNODOS :
+            TmpNodo = NULL;
+            Arbol.EliminarTodosLosNodos();
+            break;
+        case ID_AGREGARBOTON :
+            Arbol.BarraScrollEx_AgregarBotonV(0, IDBotonesScroll);
+	        Arbol.BarraScrollEx_AgregarBotonH(0, IDBotonesScroll);
+            IDBotonesScroll ++;
+            break;
+        case ID_ELIMINARBOTON :
+            Arbol.BarraScrollEx_EliminarBotonesH();
+            Arbol.BarraScrollEx_EliminarBotonesV();
+            break;
+        case ID_COLORES :
+            for (size_t i3 = 0; i3 < Arbol.TotalNodosLineales(); i3 ++) {
+                Arbol.NodoLineal(i3)->Colores()->FondoSeleccionado              = RGB(DWLRand(256), DWLRand(256), DWLRand(256));
+                Arbol.NodoLineal(i3)->Colores()->FondoSeleccionadoResaltado     = RGB(DWLRand(256), DWLRand(256), DWLRand(256));
+                Arbol.NodoLineal(i3)->Colores()->FondoSubSeleccionado           = RGB(DWLRand(256), DWLRand(256), DWLRand(256));
+                Arbol.NodoLineal(i3)->Colores()->FondoSubSeleccionadoResaltado  = RGB(DWLRand(256), DWLRand(256), DWLRand(256));
+                Arbol.NodoLineal(i3)->Colores()->TextoNormal                    = RGB(DWLRand(256), DWLRand(256), DWLRand(256));
+                Arbol.NodoLineal(i3)->Colores()->TextoSeleccionado              = RGB(DWLRand(256), DWLRand(256), DWLRand(256));
+                Arbol.NodoLineal(i3)->Colores()->TextoSeleccionadoResaltado     = RGB(DWLRand(256), DWLRand(256), DWLRand(256));
+                Arbol.NodoLineal(i3)->Colores()->PMFondoNormal                  = RGB(DWLRand(256), DWLRand(256), DWLRand(256));
+                Arbol.NodoLineal(i3)->Colores()->PMFondoResaltado               = RGB(DWLRand(256), DWLRand(256), DWLRand(256));
+            }
+            break;
+    }
+    Arbol.ActualizarTodo(true, true);
+    return 0;
+}
+
+LRESULT VentanaMain::Evento_MarcaEx_Mouse_Click(const UINT Boton, const int cX, const int cY, const UINT IDMarcaEx) {
+    switch (IDMarcaEx) {
+        case ID_BORDE :
+            Marca_Borde.Marcar(!Marca_Borde.Marcado());
+            Arbol.ArbolEx_Estilos.PintarBorde = Marca_Borde.Marcado();
+            break;
+        case ID_ICONOS :
+            Marca_Iconos.Marcar(!Marca_Iconos.Marcado());
+            Arbol.ArbolEx_Estilos.PintarIconos = Marca_Iconos.Marcado();
+            break;
+        case ID_LINEAS :
+            Marca_Lineas.Marcar(!Marca_Lineas.Marcado());
+            Arbol.ArbolEx_Estilos.PintarLineas = Marca_Lineas.Marcado();
+            break;
+        case ID_SUBSELECCION :
+            Marca_SubSeleccion.Marcar(!Marca_SubSeleccion.Marcado());
+            Arbol.ArbolEx_Estilos.SubSeleccion = Marca_SubSeleccion.Marcado();
+            Arbol.DesSeleccionarTodo();
+            Arbol.NodoMarcado()->Seleccionado(true);
+            break;
+        case ID_MULTISELECCION :
+            Marca_MultiSeleccion.Marcar(!Marca_MultiSeleccion.Marcado());
+            Arbol.ArbolEx_Estilos.MultiSeleccion = Marca_MultiSeleccion.Marcado();
+            Arbol.DesSeleccionarTodo();
+            if (Arbol.NodoMarcado() != NULL) Arbol.NodoMarcado()->Seleccionado(true);
+            break;
+        case ID_TRANSPARENCIAS : 
+            Marca_Transparencias.Marcar(!Marca_Transparencias.Marcado());
+            if (Arbol.NodoMarcado() != NULL) Arbol.ArbolEx_Estilos.Transparencias = Marca_Transparencias.Marcado();
+            break;
+    }
+    Arbol.ActualizarTodo(true, true);
+    return 0;
+}
+
+
+LRESULT VentanaMain::Evento_EdicionDesplegableEx_CambioSeleccion(const TCHAR *NuevoTexto, const UINT IDEdicionTexto) {
+    DWL::DWLString Comparacion = NuevoTexto;
+    switch (IDEdicionTexto) {
+        case ID_SCROLLVVISIBLE :
+            if (Comparacion == TEXT("ScrollV Automático"))  Arbol.BarraScrollEx_VisibleV(DWL_BARRASCROLLEX_AUTOMATICO);
+            if (Comparacion == TEXT("ScrollV Visible"))     Arbol.BarraScrollEx_VisibleV(TRUE);
+            if (Comparacion == TEXT("ScrollV Invisible"))   Arbol.BarraScrollEx_VisibleV(FALSE);
+            break;
+        case ID_SCROLLHVISIBLE :
+            if (Comparacion == TEXT("ScrollH Automático"))  Arbol.BarraScrollEx_VisibleH(DWL_BARRASCROLLEX_AUTOMATICO);
+            if (Comparacion == TEXT("ScrollH Visible"))     Arbol.BarraScrollEx_VisibleH(TRUE);
+            if (Comparacion == TEXT("ScrollH Invisible"))   Arbol.BarraScrollEx_VisibleH(FALSE);
+            break;
+        case ID_FUENTES :
+            if (Comparacion == TEXT("Tahoma 13px"))         Arbol.ArbolEx_Estilos.Fuentes.Enlazar(Tahoma13); 
+            if (Comparacion == TEXT("Courier new 16px"))    Arbol.ArbolEx_Estilos.Fuentes.Enlazar(Courier16); 
+            if (Comparacion == TEXT("Comic sans 21px"))     Arbol.ArbolEx_Estilos.Fuentes.Enlazar(Comic21); 
+            Arbol.ArbolEx_ActualizarTamTexto();
+            break;
+    }
+    Arbol.ActualizarTodo(true, true);
+    return 0;
+}
+
